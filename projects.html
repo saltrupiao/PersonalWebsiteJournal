@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Projects </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Sal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="links.html">Links</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="funfacts.html">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="journalDB.php">Journal <img src="lock-locked-2x.png" style="display:inline;"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main style="overflow:auto;">
+        <div class="container-fluid">
+            <div class="page-header text-center">
+                <div class="container text-center">
+                    <div class="page-header">
+                        <h1>Projects</h1>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table table-striped table-hover table-bordered table-responsive-md">
+                <thead class="thead-light">
+                    <tr style="text-align:center">
+                        <th>Category</th>
+                        <th>Project Title</th>
+                        <th>Project Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Work/School Projects</td>
+                        <td>Configuration of over 200 Google Chromebooks</td>
+                        <td>
+                            <p style="margin:0px">This project was one of my first in my earlier years of interning in the field of IT. I configured the school's first mass-deployment of over 200 chromebooks to be used by the students, all apart of the school's 1-to-1 device program. I learned many important skills in this project, specifically about the white-gloving process and how to use Google ChromeOS. For pictures and an introductory video on Chrome Books, please refer to the first and second slide at the botom of this page.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Work/School Projects</td>
+                        <td>Swiss Army Assistant</td>
+                        <td>
+                            <p style="margin:0px">This project is currently in progress. I am the team leader of our project. Our application is meant to be an all-in-one utility application that can be accessed from the web. In addition to sharpening our programming and logic skills, I am also learning to effectively implement the Scrum method for Agile Development as a Team Leader. An image of our Application Requirements and goals can be found on Slide 3.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Home Projects</td>
+                        <td>Home Networking Renovation Project</td>
+                        <td>
+                            <p style="margin:0px">Over this previous summer, I completely re-did the network infrastructure at my home to increase wireless and wired internet performance. I made many changes. The first is installing a new 24-port Layer 3 networking switch to handle all of the wired and wireless clients on the home network. The second is installing a MikroTik routerboard router to handle DHCP and DNS requests for the network. The third and final change is installing a QNAP Network Attached Storage appliace that houses family photos, videos, and computer backups. A photo of the setup can be found on Slide 4.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container-fluid">
+            <br>
+            <h1 class="display-4" style="text-align:center">Project Images and Videos</h1>
+            <div class="row">
+                <div class="col" align="center">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h5>Work: Configuration of 200 Google Chromebooks</h5>
+                                <p>This is an image that I took during the early stages of the configuration process:</p>
+                                <img class="d-block w-30" src="chromebooks.jpg" alt="First slide - picture of a lot of Google Chromebooks">
+                            </div>
+                            <div class="carousel-item">
+                                <h5>Work: Configuration of 200 Google Chromebooks</h5>
+                                <p>Here is a fun, short YouTube video that explains what a Google Chromebook is, along with a brief explaination of how they work:</p>
+                                <iframe class="d-block w-30" width="560" height="315" src="https://www.youtube.com/embed/i-Ehw96_XEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <h5>School: Swiss Army Assistant</h5>
+                                <p>Here is a slide from our initial product presentation that details what we intend on implementing in the form of user stories:</p>
+                                <img class="d-block w-30" src="appgoals.jpg" alt="Second slide - picture of the requirements for my Groups Application">
+                            </div>
+                            <div class="carousel-item">
+                                <h5>Home: Networking Renovation</h5>
+                                <p>Here is an image of the equipment in its network enclosure housing:</p>
+                                <img class="d-block w-30" src="network.jpg" alt="Third slide - picture of Networking Cabinet">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" style="background-color: blue" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" style="background-color: blue" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </main>
+
+    <footer class="page-footer font-medium blue fixed-bottom">
+        <div class="footer-copyright text-center p-3 bg-primary text-white">&copy; Copyright 2018 Sal Trupiano, All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

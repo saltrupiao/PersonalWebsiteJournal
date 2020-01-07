@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> New Entry </title>
+</head>
+
+<body>
+    <h1>New Journal Entry</h1>
+    <form action="insertEntry.php" method="post">
+        <fieldset>
+            <legend>Journal Entry</legend>
+            Entry Date:
+            <input type="date" name="eDate" placeholder="YYYY-MM-DD">
+            <br>
+            Entry Title:
+            <input type="text" name="eTitle" placeholder="50 Characters Maximum" maxlength="50"><br>
+            Entry Text:
+            <textarea type="textarea" name="eText" rows="30" cols="50" maxlength="600" placeholder="600 Characters Maximum"></textarea><br>
+            Entru URL:
+            <input type="url" name="eURL"><br>
+            Entry Category:<br>
+            <input type="text" name="eGroup" list="groups"><br>
+            <datalist id="groups">
+                <option value="Home"></option>
+                <option value="Work"></option>
+                <option value="Fun"></option>
+                <option value="Personal"></option>
+            </datalist>
+            <input type="submit" value="Save to Journal">
+            <input type="reset" value="Clear Data Fields">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
